@@ -1,6 +1,4 @@
 
-//http://en.wikipedia.org/wiki/File:Computron-sg.jpg
-
 function Computron(f) {
     var value = new ReactiveVar();
 

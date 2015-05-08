@@ -1,5 +1,7 @@
 # Computron
 
+![computron](http://upload.wikimedia.org/wikipedia/en/f/ff/Computron-sg.jpg)
+
 Create a computed value that will be updated automatically whenever one of the dependencies change.
 
 Example:
