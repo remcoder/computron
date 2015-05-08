@@ -2,7 +2,7 @@ Package.describe({
   name: 'remcoder:computron',
   version: '0.0.1',
   summary: 'Simple reactive computations, inspired by Knockout and Vue.js',
-  git: '',
+  git: 'https://github.com/remcoder/computron',
   documentation: 'README.md'
 });
 
