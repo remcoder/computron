@@ -3,7 +3,7 @@ Package.describe({
   version: '0.0.1',
   summary: 'Simple reactive computations, inspired by Knockout and Vue.js',
   git: '',
-  documentation: null //'README.md'
+  documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
