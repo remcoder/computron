@@ -1,6 +1,6 @@
 # Computron
 
-Create a computed value that will be updated automatically whenever one of te dependencies change.
+Create a computed value that will be updated automatically whenever one of the dependencies change.
 
 Example:
 
