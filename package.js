@@ -1,7 +1,7 @@
 Package.describe({
   name: 'remcoder:computron',
   version: '0.0.4',
-  summary: 'Simple reactive computations, inspired by Knockout and Vue.js',
+  summary: 'Computron is for creating reactive computations, just like ReactiveVar is for reactive values.',
   git: 'https://github.com/remcoder/computron',
   documentation: 'README.md'
 });
