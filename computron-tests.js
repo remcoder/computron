@@ -24,7 +24,7 @@ describe('Computron', function() {
 
     Tracker.autorun(Meteor.bindEnvironment(function() {
       var s = sum.get();
-      console.log(s); // 2, 42
+      //console.log(s); // 2, 42
 
       if (count == 0)
         test.equal(s, 2);
@@ -48,5 +48,11 @@ describe('Computron', function() {
      test.equal(count, 3);
     }), 100);
 
+  });
+
+  it('should be re-calculated directly after Tracker.flush()', function(test, waitFor) {
+    r2.set(41);
+    Tracker.flush();
+    test.equal(sum.get(), 42);
   });
 });
