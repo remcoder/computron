@@ -1,6 +1,7 @@
 # using Spacejam for running tests
 # see: http://practicalmeteor.com/testing-meteor-packages-command-line-travis-ci/
 
+sudo: required
 language: node_js
 
 node_js: "0.10.29"
