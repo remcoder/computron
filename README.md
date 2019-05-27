@@ -1,6 +1,6 @@
 # Computron [![Build Status](https://travis-ci.org/remcoder/computron.svg?branch=master)](https://travis-ci.org/remcoder/computron)
 
-![computron](http://upload.wikimedia.org/wikipedia/en/f/ff/Computron-sg.jpg)
+![image](https://user-images.githubusercontent.com/461650/58403119-31abbe00-8062-11e9-8cb7-80b498bf97cc.png)
 
 Computron is for creating reactive _computations_, just like ReactiveVar is for reactive _values_ and was inspired by computed values from [Knockout](http://knockoutjs.com/documentation/computedObservables.html) and [Vue.js](http://vuejs.org/api/options.html#computed).
 
