@@ -8,14 +8,15 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.use('reactive-var');
-  api.addFiles('computron.js');
+  api.use('tracker', 'web');
+  api.use('reactive-var', 'web');
+  api.addFiles('computron.js', 'web');
 });
 
 Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('reactive-var');
-  api.use('practicalmeteor:munit');
-  api.use('remcoder:computron');
-  api.addFiles('computron-tests.js');
+  api.use('tinytest', 'web');
+  api.use('reactive-var', 'web');
+  api.use('practicalmeteor:munit', 'web');
+  api.use('remcoder:computron', 'web');
+  api.addFiles('computron-tests.js', 'web');
 });
